@@ -59,7 +59,7 @@ ENDIF(NOT WIN32)
 if(MSVC)
   add_compile_options(/EHs-c- /GR-)
 else()
-  add_compile_options(-fno-exceptions -fno-rtti -fvisibility=hidden)
+  add_compile_options(-fno-exceptions -fno-rtti)
 endif()
 
 
